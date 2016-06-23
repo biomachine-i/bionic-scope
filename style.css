@@ -16,8 +16,7 @@ body {
 	-webkit-text-size-adjust: none;
 	text-rendering: optimizeLegibility;
 	margin: auto;
-	padding: 0 0 0 0; 
-	text-align: center;
+	padding: 0 0 0 0;
 	/*max-width: 768px;*/
 	min-width: 416px;
 	margin-bottom: 10%;
