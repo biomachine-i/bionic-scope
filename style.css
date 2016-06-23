@@ -26,8 +26,30 @@ body {
 	_font-family: "ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 }
 
+a { text-decoration: none; }
+a:link { color: #202020; }
+a:visited { color: #202020; }
+a:hover { color: #202020; }
+a:active { color: #202020; }
+
 .container{
 	margin: 2% 2% 2% 2%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.globalheader {
+	margin: 0 0 0 0;
+	background: black;
+	font-weight: bolder;
+	text-align: left;
+	vertical-align: text-bottom;
+}
+
+.globalheader-left a{
+	color: #ffffff;
+	text-align: left;
 }
 
 .header{
