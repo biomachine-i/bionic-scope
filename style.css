@@ -81,10 +81,12 @@ a:active { color: #202020; }
 
 .section_intro{
 	margin: 40% 0% 40% 0%;
+	text-align: left;
 }
 
 .section_app{
 	margin: 40% 0% 40% 0%;
+	text-align: left;
 }
 
 .footer_section {
