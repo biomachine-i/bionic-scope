@@ -1,0 +1,135 @@
+@charset  "UTF-8";
+
+@-ms-viewport {width: device-width;}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/* Noto Sans Japanese (japanese)
+http://www.google.com/fonts/earlyaccess */
+
+body {
+	color: #202020;
+	font-family: 'Helvetica Neue','Roboto','Noto Sans Japanese','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	-webkit-font-smoothing: subpixel–antialiased;
+	-webkit-text-size-adjust: none;
+	text-rendering: optimizeLegibility;
+	margin: auto;
+	padding: 0 0 0 0; 
+	text-align: center;
+	max-width: 768px;
+	min-width: 416px;
+	margin-bottom: 10%;
+	
+	/* for IF6 */
+	_font-family: "ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
+
+.container{
+	margin: 2% 2% 2% 2%;
+}
+
+.header{
+	margin: 20% 2% 20% 2%;
+}
+
+.header h1 {
+	margin: 0% 0% 0% 0%;
+	font-size: 4rem;
+	text-align: justify;
+}
+
+.header h2 {
+	margin: 0% 0% 0% 0%;
+	font-size: 1rem;
+	text-align: left;
+	font-weight: 300;
+}
+
+.section_header h1 {
+	margin: 0% 0% 0% 0%;
+	font-size: 1.5rem;
+	text-align: justify;
+	font-weight: 300;
+}
+
+.section_header p {
+	text-align: justify;
+}
+
+.section_intro{
+	margin: 40% 0 40% 0;
+}
+
+.section_app{
+	margin: 40% 0 40% 0;
+}
+
+.footer_section {
+	margin: 0% 0% 0% 0%;
+}
+
+.footer_section p{
+	text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+	.br-in {
+	display:none;
+	}
+	
+	.twocol-left {
+	margin:0;
+	padding:0;
+	float:none;
+	text-align: center;
+	width:100%;
+	}
+	
+	.twocol-right {
+	margin-left: auto;
+	margin-right: auto;
+	float:none;
+	text-align: center;
+	width:100%;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.br-sp {
+	display:none;
+	}
+	
+	.twocol {
+	margin: 0% 0% 5% 0%;
+	}
+	
+	.twocol:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	}
+	
+	.twocol-left {
+	margin:0;
+	padding:0;
+	float:left;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	width:48%;
+	}
+	
+	.twocol-right {
+	margin:0;
+	padding:0;
+	float:left;
+	margin-left: 4%;
+	text-align: center;
+	width:48%;
+	}
+
+}
