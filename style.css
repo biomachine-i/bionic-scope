@@ -92,7 +92,7 @@ a:active { color: #202020; }
 
 .header_content {
 	position: relative;
-	margin: 240px 0 40px 0px;
+	margin: 240px 0 30px 0px;
     z-index: 100;
     text-align: center;
 }
