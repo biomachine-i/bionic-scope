@@ -146,6 +146,7 @@ a:active { color: #202020; }
 }
 
 p {
+	font-family: 'Noto Sans Japanese','Helvetica Neue','Roboto','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
 	margin: 30px 2px; 
 	text-align: center;
 	line-height: 1.5rem;
@@ -166,6 +167,7 @@ p {
 }
 
 table {
+	font-family: 'Noto Sans Japanese','Helvetica Neue','Roboto','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;	
 	margin: 2% 0 0 0;
 	line-height: 1.5rem;
 }
